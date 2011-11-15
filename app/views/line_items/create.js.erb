@@ -1,0 +1,14 @@
+<%
+    cart_html = render @cart, :message => 'Carrito de compras'
+%>
+jQuery('#cart').html("<%= escape_javascript(cart_html) %>");
+jQuery('#cart').animate(
+        {opacity: 0.10},
+        2000,   //milisegundos
+        function() {
+            jQuery('#cart').animate(
+                    {opacity: 1},
+                    3000
+            );
+        }
+);

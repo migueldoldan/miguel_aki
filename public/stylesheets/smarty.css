@@ -1,0 +1,41 @@
+div#smarts .price {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    text-align: right;
+    border: dotted #333333 1px;
+}
+
+div#smarts .content {
+    float: left;
+    width: 30%;
+}
+
+div#smarts .content h2 {
+    margin-top: 0;
+}
+
+div#smarts .image {
+    float: left;
+    width: 20%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+#column #side {
+    float: left;
+    width: 15%;
+
+}
+
+#column #main {
+    float: left;
+    width: 85%;
+}
+
+#column #side a{
+    display: block;
+}
